@@ -12,7 +12,7 @@
 
 This project has reusable code and components for machine learning tasks. To contribute, raise a PR. 
 
-*Currently supports python 3.7.10*
+*Currently supports python 3.7.6*
 
 
 ---
