@@ -1,0 +1,18 @@
+# @package _global_
+read_data:
+
+  # run this process or not
+  run: false
+
+  # path to delimited files (or) path to dir of delimited files with same schema 
+  path: default/path/goes/here
+
+  # for tabular data: 
+  #       The input tabular data must have a unique identifier column. 
+  #       If not available, specifiy `null` which create a `uniqueIdentifier` column for all the values  dataframe(s)
+  # for image or text data:
+  #       path to a tab separated text file with headers unique_id, file_path_from_root_dir, metadata  
+  #           unique_id: unique sample id
+  #           file_path_from_root_dir: the path to file from root dir 
+  #           metadata: json string meta data for the file 
+  unique_identifier: uuid

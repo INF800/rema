@@ -12,13 +12,20 @@
 
 This project has reusable code and components for machine learning tasks. To contribute, raise a PR. 
 
-*Currently supports python 3.7.10*
+*Currently supports python 3.7.6*
 
+Key Features
+
+- [x] Built on top of Hydra
+- [x] Automatic logging for reroducible-results
+- [ ] Faster training using JAX
+
+*More features coming soon*
 
 ---
 ## Roadmap 🚧
 
-#### 01. Reading Data
+#### 01. Read Data
 
 
 - [ ] tabular data
@@ -49,17 +56,3 @@ This project has reusable code and components for machine learning tasks. To con
 #### 04. Unsupervised Learning
 
 > *Coming soon!*
-
-
----
-
-## Design contracts 📚
-
-
-### Reading Data
-
-
-**Tabular** 
-
-
-- The input tabular data must have a unique identifier column. If not available, specifiy `null` which create a `uniqueIdentifier` column for all the values  dataframe(s)

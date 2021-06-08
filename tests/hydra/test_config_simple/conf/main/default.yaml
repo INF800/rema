@@ -1,0 +1,18 @@
+# @package _global_
+
+# =============================================================================================================================
+# HYDRA CHEAT-LIST
+# =============================================================================================================================
+# override: `python run_app.py group1.var2=xyz`
+# example: `python tests/hydra/test_config_simple/run_app.py read_data.path='new/path/goes/here'`
+# ---
+# new variable parameters: `python run_app.py +new_var=0`
+# new variable parameters from folders: `python run_app.py +folder_name=yaml_file_name_inside_folder
+# ---
+
+
+# =============================================================================================================================
+# GENERAL CONFIG
+# =============================================================================================================================
+# this number is used almost everywhere where seed/initial state is required for deterministic algorithms
+seed: 111
