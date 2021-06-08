@@ -1,0 +1,4 @@
+seed: 111
+read_data:
+  path: default/path/goes/here
+  unique_identifier: uuid

@@ -1,1 +1,5 @@
 hydra-core
+pytest
+pandas
+
+scikit-learn

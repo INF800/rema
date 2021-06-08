@@ -1,0 +1,6 @@
+path: default/path/goes/here
+unique_identifier: uuid
+seed: 111
+read_data:
+  run: true
+  type: dsv
