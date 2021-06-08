@@ -14,6 +14,13 @@ This project has reusable code and components for machine learning tasks. To con
 
 *Currently supports python 3.7.6*
 
+Key Features
+
+- [x] Built on top of Hydra
+- [x] Automatic logging for reroducible-results
+- [ ] Faster training using JAX
+
+*More features coming soon*
 
 ---
 ## Roadmap 🚧
