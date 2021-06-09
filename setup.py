@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(
-  name = 'nextoff',         
+  name = 'rema',         
   # packages = [
   # 'rema', 
   # 'rema.test', 
