@@ -1,13 +1,13 @@
 from distutils.core import setup
 setup(
   name = 'nextoff',         
-  packages = [
-    'rema', 
-    'rema.test', 
-    'rema.data', 
-    'rema.models',
-    'rema.train', 
-    ],  #! Important
+  # packages = [
+  # 'rema', 
+  # 'rema.test', 
+  # 'rema.data', 
+  # 'rema.models',
+  # 'rema.train', 
+  # ],  #! Important
   version = '0.0.0', #! Always update
   license='MIT',        
   description = 'REusable MAchine learning codebase.', 
